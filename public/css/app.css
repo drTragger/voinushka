@@ -1,0 +1,207 @@
+/* public/css/custom.css */
+* {
+    font-family: 'Inter', sans-serif !important;
+    color: #1B1C1E;
+}
+
+#heroCarousel .carousel-control-next:hover > svg path,
+#heroCarousel .carousel-control-next:active > svg path,
+#heroCarousel .carousel-control-prev:hover > svg path,
+#heroCarousel .carousel-control-prev:active > svg path {
+    stroke: var(--primary-color) !important;
+}
+
+.carousel-item {
+    height: calc(100vh + 1px);
+    min-height: 300px;
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Зміна прозорості оверлею */
+    z-index: 2;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    z-index: 3;
+    max-width: 80%;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.hero-text h1 {
+    font-size: 92px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.hero-text p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+    .hero-text p {
+        font-size: 1rem;
+    }
+    .carousel-caption {
+        padding: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+    .hero-text p {
+        font-size: 16px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+    .hero-text p {
+        font-size: 16px;
+        margin-top: 1.5rem;
+    }
+    .hero-buttons {
+        width: 100vw;
+        margin: 4rem 0;
+    }
+    .products-cards div {
+        margin-top: 1rem;
+    }
+    #products .btn-outline-orange {
+        width: 100%;
+        margin-top: 1.5rem;
+        padding: 12px 0;
+        font-size: 13px;
+    }
+    #playground .btn-orange-big, #video .btn-orange-big, #form .btn-orange-big, #weapons .btn-orange-big, #birthday .btn-orange-big {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    #laserTagHero {
+        height: 100% !important;
+    }
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index: 4;
+}
+
+#video h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.video-container iframe {
+    border-radius: 12px;
+}
+
+@media (max-width: 576px) {
+    .video-container, #video .info-container > div {
+        display: flex;
+        justify-content: center;
+    }
+
+    #video .info-container .video-info {
+        width: 480px;
+    }
+}
+
+footer {
+    margin-top: 10rem;
+    background-color: #1B1C1E;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    color: #E5E7EB;
+    font-size: 16px;
+    margin-bottom: .4rem;
+}
+
+footer li.title {
+    color: #7A7C80;
+}
+
+footer .link {
+    color: #E5E7EB;
+}
+
+.modal-content {
+    border-radius: 16px;
+}
+
+.modal-body {
+    padding: 0 56px;
+}
+
+@media (max-width: 576px) {
+    .modal-body {
+        padding: 0 1rem;
+    }
+}
+
+.modal-body h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -.02em;
+}
+
+.modal-body p, .modal-body label {
+    color: #5B5E63;
+}
+
+.modal-dialog {
+    max-width: 610px;
+}
+
+.modal-header, .modal-footer, .modal-content {
+    border: none;
+}
+
+.alert {
+    position: fixed;
+    top: 3.2rem;
+    right: 2rem;
+}
+
+.rounded-image {
+    border-radius: 12px;
+}
