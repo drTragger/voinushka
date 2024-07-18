@@ -26,7 +26,7 @@
         </ul>
         <ul class="navbar-nav ml-auto align-items-center">
             <li class="nav-item justify-content-center">
-                <a class="nav-link d-flex align-items-center justify-content-center" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz">
+                <a class="nav-link d-flex align-items-center justify-content-center" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg"
                          viewBox="0 0 448 512" width="25">
                         <path fill="white"
