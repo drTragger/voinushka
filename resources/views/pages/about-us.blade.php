@@ -192,7 +192,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="{{ route('laserTag') }}" class="btn btn-outline-orange ml-auto">ДЕТАЛЬНІШЕ</a>
+                            <a href="{{ route('quest') }}" class="btn btn-outline-orange ml-auto">ДЕТАЛЬНІШЕ</a>
                         </div>
                     </div>
                 </div>
