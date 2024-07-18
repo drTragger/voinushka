@@ -157,7 +157,7 @@
                                     </div>
                                     <div>
                                         <img src="{{ asset('storage/icons/users.svg') }}" alt="Команда">
-                                        <span class="ml-2">4 - 10 учасників</span>
+                                        <span class="ml-2">10 - 60 учасників</span>
                                     </div>
                                 </div>
                             </div>

@@ -31,7 +31,7 @@
                             <img class="img-fluid" src="{{ asset('storage/icons/users.svg') }}" alt="kid">
                         </div>
                     </div>
-                    <p class="m-0">4 - 10 учасників</p>
+                    <p class="m-0">10 - 60 учасників</p>
                 </div>
             </div>
             <div class="lt-cards-mobile column d-md-none justify-content-center align-items-center">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="icon">
                     <img class="img-fluid" src="{{ asset('storage/icons/users.svg') }}" alt="kid">
-                    <span class="text-white">4 - 10 учасників</span>
+                    <span class="text-white">10 - 60 учасників</span>
                 </div>
             </div>
         </div>
