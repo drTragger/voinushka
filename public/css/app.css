@@ -1,14 +1,105 @@
-/* public/css/custom.css */
+/* public/css/app.css */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
 * {
     font-family: 'Inter', sans-serif !important;
     color: #1B1C1E;
 }
 
-#heroCarousel .carousel-control-next:hover > svg path,
-#heroCarousel .carousel-control-next:active > svg path,
-#heroCarousel .carousel-control-prev:hover > svg path,
-#heroCarousel .carousel-control-prev:active > svg path {
-    stroke: var(--primary-color) !important;
+html {
+    scroll-behavior: smooth;
+}
+
+.about-us-hero {
+    height: 724px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom 40%;
+    position: relative;
+}
+
+@media (max-width: 576px) {
+    .about-us-hero {
+        height: 800px;
+    }
+}
+
+.about-us-hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+.about-us-hero .content, .about-us-hero .buttons-container {
+    position: relative;
+    z-index: 2;
+}
+
+.about-us-hero .links-container {
+    margin-top: 11.8125rem;
+    width: 694px;
+}
+
+.about-us-hero .contacts-container {
+    position: relative;
+    z-index: 2;
+    padding-top: 5.625rem;
+}
+
+.about-us-hero .contacts-container .contacts-info {
+    background: rgba(0, 0, 0, .7);
+    padding: 12px 16px;
+    border-radius: 12px;
+}
+
+@media (max-width: 576px) {
+    .about-us-hero .links-container {
+        margin-top: 3.25rem;
+    }
 }
 
 .carousel-item {
@@ -34,7 +125,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Зміна прозорості оверлею */
+    background: rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
 
@@ -68,9 +159,11 @@
     .hero-text h1 {
         font-size: 2.5rem;
     }
+
     .hero-text p {
         font-size: 1rem;
     }
+
     .carousel-caption {
         padding: 0;
     }
@@ -81,6 +174,7 @@
     .hero-text h1 {
         font-size: 40px;
     }
+
     .hero-text p {
         font-size: 16px;
     }
@@ -91,29 +185,31 @@
     .hero-text h1 {
         font-size: 40px;
     }
+
     .hero-text p {
         font-size: 16px;
         margin-top: 1.5rem;
     }
+
     .hero-buttons {
         width: 100vw;
         margin: 4rem 0;
     }
+
     .products-cards div {
         margin-top: 1rem;
     }
-    #products .btn-outline-orange {
+
+    #weOffer .btn-outline-orange {
         width: 100%;
         margin-top: 1.5rem;
         padding: 12px 0;
         font-size: 13px;
     }
+
     #playground .btn-orange-big, #video .btn-orange-big, #form .btn-orange-big, #weapons .btn-orange-big, #birthday .btn-orange-big {
         width: 100%;
         margin-top: 1.5rem;
-    }
-    #laserTagHero {
-        height: 100% !important;
     }
 }
 

@@ -8,8 +8,11 @@ $("#coverflow").flipster({
 });
 
 $(document).ready(function () {
-    $('#heroCarousel').carousel({
-        interval: 7000 // Change the interval to 6 seconds
+    $('.btn.we-offer').on('click', function(){
+        const anchor = $(this).data("anchor");
+        $('html, body').animate({
+            scrollTop: $(anchor).offset().top - 100
+        }, 600);
     });
 
     const $phoneInput = $("input[name='phone']");
@@ -132,7 +135,7 @@ $(document).ready(function () {
     let target
     function smoothScroll(target) {
         $('html, body').animate({
-            scrollTop: target.offset().top - 120
+            scrollTop: target.offset().top - 50
         }, 500, 'linear');
     }
 

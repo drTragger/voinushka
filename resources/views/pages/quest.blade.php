@@ -1,12 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <section id="laserTagHero" class="d-flex flex-column justify-content-between pb-5 position-relative"
-             style="background-image: url('{{ asset('storage/images/lasertag-hero.png') }}'); background-size: cover; background-position: center; height: 100vh;">
-        <div class="d-flex flex-column justify-content-center mt-5 mt-md-0" style="flex: 1;">
-            <div class="text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
-                <h1>Квест "Ракетна База"</h1>
-                <p>Поринь у незабутню легенду, та стань головним героєм її подій</p>
+    <section id="questHero" class="position-relative mb-5"
+             style="background-image: url('{{ asset('storage/images/lasertag-hero.png') }}');">
+        <div class="d-flex flex-column justify-content-center">
+            <div
+                class="d-flex flex-column justify-content-center align-items-center text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
+                <h1 class="mt-0">Квест <br class="d-md-none">"Ракетна База"</h1>
+                <p class="mt-4 mb-0">Поринь у незабутню легенду, та стань головним героєм її подій</p>
             </div>
             <div class="laser-tag-cards">
                 <div class="d-flex flex-column justify-content-center p-4 mx-3 my-2 my-md-0 laser-tag-card text-center">
@@ -34,41 +35,44 @@
                     <p class="m-0">4 - 10 учасників</p>
                 </div>
             </div>
-            <div class="lt-cards-mobile column d-md-none justify-content-center align-items-center">
-                <div class="icon mb-4">
+            <div class="lt-cards-mobile column d-md-none justify-content-center align-items-center mx-4">
+                <div class="icon mb-3">
                     <img class="img-fluid" src="{{ asset('storage/icons/location.svg') }}" alt="location">
                     <span class="text-white">вул. Березинська, 54</span>
                 </div>
-                <div class="icon mb-4">
+                <div class="icon mb-3">
                     <img class="img-fluid" src="{{ asset('storage/icons/time.svg') }}" alt="time">
-                    <span class="text-white">1 година</span>
+                    <span class="text-white">3,5 години</span>
                 </div>
                 <div class="icon">
                     <img class="img-fluid" src="{{ asset('storage/icons/users.svg') }}" alt="kid">
-                    <span class="text-white">4 - 10 учасників</span>
+                    <span class="text-white">10 - 60 учасників</span>
                 </div>
             </div>
         </div>
-        <div class="d-flex flex-column justify-content-around align-items-center laser-tag-hero-price mt-4 mt-md-0"
-             style="flex: 1;">
-            <div class="d-flex flex-column align-items-center text-center">
-                <h2 class="text-white">200 грн</h2>
-                <p class="text-white">з однієї людини</p>
+        <div class="d-flex flex-column align-items-md-center buttons-container px-3 px-md-0">
+            <div class="laser-tag-hero-price">
+                <h2>200 грн</h2>
+                <p>з однієї людини</p>
             </div>
-            <button type="button" class="btn btn-orange-big" data-toggle="modal" data-target="#contactFormModal">
+            <button type="button" class="btn btn-orange-big mt-2" data-toggle="modal" data-target="#contactFormModal">
                 ЗАБРОНЮВАТИ
             </button>
+            <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+               href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}" alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ
+                В ІНСТАГРАМ
+            </a>
         </div>
         <div class="position-absolute w-100 d-flex justify-content-center align-items-center" style="bottom: 16px;">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10.6666 13.3333L16 18.6666L21.3333 13.3333" stroke="white" stroke-width="2"
-                      stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <button type="button" class="btn we-offer p-0" data-anchor="#weapons">
+                <img class="img-fluid" src="{{ asset('storage/icons/about-quest.svg') }}" alt="Наші Послуги">
+            </button>
         </div>
     </section>
 
     <section id="weapons" class="py-5">
-        <div class="container py-5">
+        <div class="container">
             <h2 class="text-center text-title">Про квест "Ракетна База"</h2>
             <div class="py-5">
                 <div class="row">
@@ -81,10 +85,22 @@
                                 цієї бази. Необхідно сформувати новий спецпідрозділ, щоб знайти цю базу і запустити
                                 ракети.</p>
                         </div>
-                        <div>
-                            <button type="button" class="btn btn-orange-big mt-3" data-toggle="modal"
-                                    data-target="#contactFormModal">ЗАБРОНЮВАТИ
-                            </button>
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
+                                <h2 class="text-center text-title">200 грн / 1 год.</h2>
+                                <p class="text-subtitle text-center m-0">з однієї людини</p>
+                            </div>
+                            <div class="order-2 order-md-1">
+                                <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
+                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
+                                </button>
+                                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                                   href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                                   target="_blank">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}"
+                                         alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 order-md-2 order-1 mb-4 mb-md-0">
@@ -144,15 +160,17 @@
                         <a class="link" href="tel:+380964862244">+38 (096) 486 2244</a>,
                         <a class="link" href="tel:+380994569009">+38 (099) 456 9009</a>
                     </p>
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">
-                            <path fill="#5B5E63"
-                                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
-                        </svg>
-                        <a class="link" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
-                            Instagram
+                    <div class="d-flex">
+                        <a href="viber://chat?number=%2B380964862244" target="_blank">
+                            <img class="img-fluid" src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
                         </a>
-                    </p>
+                        <a class="mx-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                            <img class="img-fluid" src="{{ asset('storage/icons/instagram.svg') }}" alt="instagram">
+                        </a>
+                        <a href="https://t.me/lazertagclub_voinushka" target="_blank">
+                            <img class="img-fluid" src="{{ asset('storage/icons/telegram.svg') }}" alt="telegram">
+                        </a>
+                    </div>
                 </div>
 
                 <form id="contactForm" class="w-100" action="{{ route('form.submit') }}" method="POST">

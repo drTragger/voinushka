@@ -1,12 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <section id="laserTagHero" class="d-flex flex-column justify-content-between pb-5 position-relative"
-             style="background-image: url('{{ asset('storage/images/lasertag-hero.png') }}'); background-size: cover; background-position: center; height: 100vh;">
-        <div class="d-flex flex-column justify-content-center mt-5 mt-md-0" style="flex: 1;">
-            <div class="text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
-                <h1>Лазертаг у Дніпрі</h1>
-                <p>Незабутні пригоди та активний відпочинок для Дітей та Дорослих</p>
+    <section id="laserTagHero" class="position-relative mb-5"
+             style="background-image: url('{{ asset('storage/images/lasertag-hero.png') }}');">
+        <div class="d-flex flex-column justify-content-center mb-5">
+            <div
+                class="d-flex flex-column justify-content-center align-items-center text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
+                <h1 class="mt-0">Лазертаг у клубі "Войнушка"</h1>
+                <p class="mt-4 mb-0">Незабутні пригоди та активний відпочинок для Дітей та Дорослих</p>
             </div>
             <div class="laser-tag-cards">
                 <div class="d-flex flex-column justify-content-center p-4 mx-3 my-2 my-md-0 laser-tag-card text-center">
@@ -34,12 +35,12 @@
                     <p class="m-0">10 - 60 учасників</p>
                 </div>
             </div>
-            <div class="lt-cards-mobile column d-md-none justify-content-center align-items-center">
-                <div class="icon mb-4">
+            <div class="lt-cards-mobile column d-md-none justify-content-center align-items-center mx-4">
+                <div class="icon mb-3">
                     <img class="img-fluid" src="{{ asset('storage/icons/location.svg') }}" alt="location">
                     <span class="text-white">вул. Березинська, 54</span>
                 </div>
-                <div class="icon mb-4">
+                <div class="icon mb-3">
                     <img class="img-fluid" src="{{ asset('storage/icons/time.svg') }}" alt="time">
                     <span class="text-white">3,5 години</span>
                 </div>
@@ -49,42 +50,54 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex flex-column justify-content-around align-items-center laser-tag-hero-price mt-4 mt-md-0"
-             style="flex: 1;">
-            <div class="d-flex flex-column align-items-center text-center">
-                <h2 class="text-white">550 грн</h2>
-                <p class="text-white">з однієї людини</p>
-            </div>
-            <button type="button" class="btn btn-orange-big" data-toggle="modal" data-target="#contactFormModal">
+        <div class="d-flex flex-column align-items-md-center buttons-container mt-5 px-3 px-md-0">
+            <button type="button" class="btn btn-orange-big mt-2" data-toggle="modal" data-target="#contactFormModal">
                 ЗАБРОНЮВАТИ
             </button>
+            <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+               href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}" alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ
+                В ІНСТАГРАМ
+            </a>
         </div>
         <div class="position-absolute w-100 d-flex justify-content-center align-items-center" style="bottom: 16px;">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10.6666 13.3333L16 18.6666L21.3333 13.3333" stroke="white" stroke-width="2"
-                      stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <button type="button" class="btn we-offer p-0" data-anchor="#weapons">
+                <img class="img-fluid" src="{{ asset('storage/icons/we-offer.svg') }}" alt="Наші Послуги">
+            </button>
         </div>
     </section>
 
     <section id="weapons" class="py-5">
-        <div class="container py-5">
-            <h2 class="text-center text-title">Різноманітні види арсеналу</h2>
-            <p class="text-center text-subtitle text-muted py-4">Лазертаг клуб "Войнушка" у Дніпрі має один з найбільших арсеналів
-                гри в Лазертаг</p>
-            <div class="py-5">
+        <div class="container">
+            <h2 class="text-center text-title-2">Різноманітні види арсеналу</h2>
+            <p class="text-center text-subtitle text-muted py-2 py-md-4 m-0">Лазертаг клуб "Войнушка" у Дніпрі має один
+                з найбільших арсеналів гри в Лазертаг</p>
+            <div class="py-4 py-md-5">
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
-                        <div>
-                            <p class="text-subtitle"><strong>Лазертаг клуб "Войнушка" налічує 66 одиниць зброї.</strong><br>
+                        <div class="mb-4">
+                            <p class="text-subtitle mb-0 mt-4"><strong>Лазертаг клуб "Войнушка" налічує 66
+                                    одиниць зброї.</strong><br>
                                 У нашому арсеналі: штурмові автомати, снайперські гвинтівки, кулемети та модифіковані
                                 пістолі. Вага зброї варіюється від 0.5 кг до 10 кг, тому кожен знайде собі відповідний
                                 варіант. Приєднуйтесь до "Войнушки" для незабутніх лазертаг-баталій!</p>
                         </div>
-                        <div>
-                            <button type="button" class="btn btn-orange-big mt-3" data-toggle="modal"
-                                    data-target="#contactFormModal">ЗАБРОНЮВАТИ
-                            </button>
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
+                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
+                                <p class="text-subtitle text-center m-0">з однієї людини</p>
+                            </div>
+                            <div class="order-2 order-md-1">
+                                <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
+                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
+                                </button>
+                                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                                   href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                                   target="_blank">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}"
+                                         alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 order-md-2 order-1 mb-4 mb-md-0">
@@ -131,44 +144,56 @@
         </div>
     </section>
 
-    <section id="birthday" class="py-5">
-        <div class="container py-5">
-            <h2 class="text-center text-title">Проведення дитячого Дня Народження</h2>
-            <p class="text-center text-subtitle text-muted py-4">Зробіть неймовірний подарунок вашій дитині</p>
-            <div class="py-5">
+    <section id="birthday" class="pt-5">
+        <div class="container pt-md-5">
+            <h2 class="text-center text-title-2">Проведення дитячого Дня Народження</h2>
+            <p class="text-center text-subtitle text-muted py-2 py-md-4">Зробіть неймовірний подарунок вашій дитині</p>
+            <div class="pt-2 pt-md-5">
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
-                        <div>
-                            <p class="text-subtitle">Три години драйву та адреналіну ми вам гарантуємо. Робота
+                        <div class="mb-4">
+                            <p class="text-subtitle mb-0 mt-4">Три години драйву та адреналіну ми вам гарантуємо. Робота
                                 інструкторів, орендний камуфляж, радіостанції за необхідності, фотозвіт та, за
                                 погодженням, польова кухня — все це додатково надає ЛК «Войнушка».<br>
                                 Лазертаг — це універсальна гра, яка дозволить оригінально відзначити дитячий день
                                 народження та отримати море адреналіну та позитивних емоцій. Корпоративний лазертаг — це
                                 відмінний спосіб згуртувати команду та провести незабутній час разом.</p>
                         </div>
-                        <div>
-                            <button type="button" class="btn btn-orange-big mt-3" data-toggle="modal"
-                                    data-target="#contactFormModal">ЗАБРОНЮВАТИ
-                            </button>
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
+                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
+                                <p class="text-subtitle text-center m-0">з однієї людини</p>
+                            </div>
+                            <div class="order-2 order-md-1">
+                                <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
+                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
+                                </button>
+                                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                                   href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                                   target="_blank">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}"
+                                         alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 order-md-2 order-1 mb-4 mb-md-0">
+                    <div class="col-md-6 order-md-2 order-1">
                         <img src="{{ asset('storage/images/lt-birthday.png') }}" class="img-fluid rounded-image"
                              alt="День народження">
                     </div>
                 </div>
             </div>
 
-            <div class="pt-5">
-                <h3 class="text-title-2">Переваги Лазертагу для дітей</h3>
-                <div class="row pt-4">
+            <div class="mt-md-5">
+                <div class="row">
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card p-3 h-100">
                             <div class="mb-3">
                                 <img src="{{ asset('storage/icons/security.svg') }}" alt="Безпека">
                             </div>
                             <h5 class="card-title">Безпека</h5>
-                            <p class="card-text text-muted">На відміну від пейнтболу або страйкболу, це абсолютно безпечно і не боляче</p>
+                            <p class="card-text text-muted">На відміну від пейнтболу або страйкболу, це абсолютно
+                                безпечно і не боляче</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
@@ -195,14 +220,173 @@
         </div>
     </section>
 
+    <section id="corporates" class="pt-5">
+        <div class="container pt-md-5">
+            <h2 class="text-center text-title-2">Проведення Корпоративів, Тімбілдингів</h2>
+            <p class="text-center text-subtitle text-muted py-2">Зробіть неймовірний подарунок вашій дитині</p>
+            <div class="pt-2">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
+                        <div class="mb-4">
+                            <p class="text-subtitle mb-0 mt-4">Три години драйву та адреналіну ми вам гарантуємо. Робота
+                                інструкторів, орендний камуфляж, радіостанції за необхідності, фотозвіт та, за
+                                погодженням, польова кухня — все це додатково надає ЛК «Войнушка».</p>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
+                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
+                                <p class="text-subtitle text-center m-0">з однієї людини</p>
+                            </div>
+                            <div class="order-2 order-md-1">
+                                <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
+                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
+                                </button>
+                                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                                   href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                                   target="_blank">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}"
+                                         alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-2 order-1">
+                        <img src="{{ asset('storage/images/lt-corporates.png') }}" class="img-fluid rounded-image"
+                             alt="Корпоративи">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collectiveGames" class="pt-5">
+        <div class="container pt-md-5">
+            <h2 class="text-center text-title-2">Збірні ігри</h2>
+            <div class="pt-3 pt-md-5">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
+                        <div class="mb-4">
+                            <p class="text-subtitle mb-0 mt-4">Вам подобається активний відпочинок, вам до душі
+                                віськово-спортивна тематика, але ви не маєте своєї команди? Запрошуємо на збірну гру -
+                                три з половиною години активного відпочинку в компанії однодумців вам гарантовано.</p>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
+                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
+                                <p class="text-subtitle text-center m-0">з однієї людини</p>
+                            </div>
+                            <div class="order-2 order-md-1">
+                                <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
+                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
+                                </button>
+                                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                                   href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                                   target="_blank">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}"
+                                         alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-2 order-1">
+                        <img src="{{ asset('storage/images/lt-col-games.png') }}" class="img-fluid rounded-image"
+                             alt="Збірні ігри">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="adultsTraining" class="pt-5">
+        <div class="container pt-md-5">
+            <h2 class="text-center text-title-2">Тренування для дорослих</h2>
+            <div class="pt-3 pt-md-5">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
+                        <div class="mb-4">
+                            <p class="text-subtitle mb-0 mt-4">Як що у вас є бажання пройти базовий курс молодого бійця,
+                                запрошуємо вас на військове тактичне тренування.
+                                Тактика, стратегія, такмед, евакуація поранених, навики праці в парах, трійках і більш
+                                великих бойових підрозділах, вміння ходити в приміщеннях і в зелених
+                                зонах, а також багато інших навиків.</p>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
+                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
+                                <p class="text-subtitle text-center m-0">з однієї людини</p>
+                            </div>
+                            <div class="order-2 order-md-1">
+                                <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
+                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
+                                </button>
+                                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                                   href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                                   target="_blank">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}"
+                                         alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-2 order-1">
+                        <img src="{{ asset('storage/images/lt-adults-training.png') }}" class="img-fluid rounded-image"
+                             alt="Тренування для дорослих">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kidsSection" class="pt-5 pb-md-5">
+        <div class="container pt-md-5">
+            <h2 class="text-center text-title-2">Дитяча секція лазертагу</h2>
+            <div class="pt-3 pt-md-5">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
+                        <div class="mb-4">
+                            <p class="text-subtitle mb-0 mt-4">В Секції спортивного лазертагу ваша дитина навчитися
+                                основним
+                                базовим віськово спортивним навикам, буде вивчати тактику і стратегію, основи
+                                комунікацій з використанням портативних
+                                радіостанцій, тактичну медицину, формування бойових груп, а також
+                                вміння працювати в таких групах і багато чого ще дуже цікавого.</p>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
+                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
+                                <p class="text-subtitle text-center m-0">з однієї людини</p>
+                            </div>
+                            <div class="order-2 order-md-1">
+                                <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
+                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
+                                </button>
+                                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                                   href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                                   target="_blank">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}"
+                                         alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-2 order-1">
+                        <img src="{{ asset('storage/images/lt-kids-section.png') }}" class="img-fluid rounded-image"
+                             alt="Дитяча секція лазертагу">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="video" class="py-5">
         <div class="full-width py-5" style="background-image: url('{{ asset('storage/images/lt-video.jpeg') }}')">
             <div class="overlay"></div>
             <div class="container w-100 pt-5 pb-3 px-0">
-                <div class="row justify-content-between align-items-center info-container px-3 px-md-4">
+                <div class="row justify-content-between align-items-center info-container px-3 px-md-4 mx-0">
                     <div class="col-12 col-md-6 order-2 order-md-1 py-5">
                         <div class="video-info">
-                            <h2 class="text-left">Оригінально відзначте дитячий день народження, проведіть корпоратив,
+                            <h2 class="text-left text-white">Оригінально відзначте дитячий день народження, проведіть
+                                корпоратив,
                                 тімбілдинг, парубочий вечір, або просто весело проведіть час!</h2>
                             <div class="mt-4">
                                 <button type="button" class="btn btn-orange-big" data-toggle="modal"
@@ -252,15 +436,17 @@
                         <a class="link" href="tel:+380964862244">+38 (096) 486 2244</a>,
                         <a class="link" href="tel:+380994569009">+38 (099) 456 9009</a>
                     </p>
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">
-                            <path fill="#5B5E63"
-                                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
-                        </svg>
-                        <a class="link" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
-                            Instagram
+                    <div class="d-flex">
+                        <a href="viber://chat?number=%2B380964862244" target="_blank">
+                            <img class="img-fluid" src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
                         </a>
-                    </p>
+                        <a class="mx-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                            <img class="img-fluid" src="{{ asset('storage/icons/instagram.svg') }}" alt="instagram">
+                        </a>
+                        <a href="https://t.me/lazertagclub_voinushka" target="_blank">
+                            <img class="img-fluid" src="{{ asset('storage/icons/telegram.svg') }}" alt="telegram">
+                        </a>
+                    </div>
                 </div>
 
                 <form id="contactForm" class="w-100" action="{{ route('form.submit') }}" method="POST">

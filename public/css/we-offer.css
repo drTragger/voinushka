@@ -1,16 +1,16 @@
-#products .card-title {
+#weOffer .card-title {
     font-size: 36px;
     font-weight: 700;
     color: var(--primary-color);
 }
 
-#products img {
+#weOffer img {
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 }
 
 @media (max-width: 768px) {
-    #products img {
+    #weOffer img {
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
         border-bottom-left-radius: 0;

@@ -2,141 +2,112 @@
 
 @section('content')
     <section id="heroBlock" class="pb-5">
-        <div id="heroCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#heroCarousel" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{ asset('storage/images/hero-1.jpeg') }}" class="d-block w-100" alt="First Slide">
-                    <div class="carousel-caption d-md-block hero-text">
-                        <h1>Лазертаг</h1>
-                        <p>Незабутні пригоди та активний відпочинок для Дітей та Дорослих</p>
-                        <div class="hero-buttons row m-0">
-                            <div class="mr-3">
-                                <a class="btn btn-outline-orange-big" href="{{ route('laserTag') }}">ДЕТАЛЬНІШЕ</a>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-orange-big" data-toggle="modal"
-                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
-                                </button>
+        <div class="about-us-hero" style="background-image: url('{{ asset('storage/images/hero-1.jpeg') }}');">
+            <div class="container justify-content-center contacts-container align-items-center d-md-none">
+                <div class="contacts-info d-flex justify-content-between align-items-center">
+                    <div>
+                        <a class="mr-3" href="https://google.com" target="_blank">
+                            <img src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
+                        </a>
+                        <a class="mr-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                            <img src="{{ asset('storage/icons/instagram.svg') }}" alt="instagram">
+                        </a>
+                        <a class="mr-3" href="https://t.me/lazertagclub_voinushka" target="_blank">
+                            <img src="{{ asset('storage/icons/telegram.svg') }}" alt="telegram">
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <a class="contacts-link" href="tel:+380964862244">+38 (096) 486 2244</a>
+                        <a class="contacts-link" href="tel:+380994569009">+38 (099) 456 9009</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content container d-flex justify-content-center align-items-center">
+                <div class="row justify-content-center links-container">
+                    <div class="col-md-4 col-6 mb-md-4 mb-3 d-flex justify-content-center p-0">
+                        <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#birthday'">
+                            <div class="card-body d-flex flex-column justify-content-center">
+                                <div class="d-flex justify-content-center mb-2">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/birthday.svg') }}" alt="birthday">
+                                </div>
+                                <h5 class="card-title text-center">Організація дитячого Дня Народження</h5>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('storage/images/book.jpeg') }}" class="d-block w-100" alt="Second Slide">
-                    <div class="carousel-caption d-md-block hero-text">
-                        <h1>Квест "Ракетна База"</h1>
-                        <p>Поринь у незабутню легенду, та стань головним героєм її подій</p>
-                        <div class="hero-buttons row m-0">
-                            <div class="mr-3">
-                                <a class="btn btn-outline-orange-big" href="{{ route('quest') }}">ДЕТАЛЬНІШЕ</a>
+                    <div class="col-md-4 col-6 mb-md-4 mb-3 d-flex justify-content-center p-0">
+                        <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#corporates'">
+                            <div class="card-body d-flex flex-column justify-content-center">
+                                <div class="d-flex justify-content-center mb-2">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/team.svg') }}" alt="team">
+                                </div>
+                                <h5 class="card-title text-center">Корпоративи, Тімбілдинги</h5>
                             </div>
-                            <div>
-                                <button type="button" class="btn btn-orange-big" data-toggle="modal"
-                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
-                                </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6 mb-md-4 mb-3 d-flex justify-content-center align-items-center p-0">
+                        <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#adultsTraining'">
+                            <div class="card-body d-flex flex-column justify-content-center">
+                                <div class="d-flex justify-content-center mb-2">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/adult.svg') }}" alt="adult">
+                                </div>
+                                <h5 class="card-title text-center">Тренування для Дорослих</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6 mb-md-0 mb-3 d-flex justify-content-center p-0">
+                        <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#kidsSection'">
+                            <div class="card-body d-flex flex-column justify-content-center">
+                                <div class="d-flex justify-content-center mb-2">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/section.svg') }}" alt="section">
+                                </div>
+                                <h5 class="card-title text-center">Дитяча секція спортивного лазертагу</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6 d-flex justify-content-center p-0">
+                        <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#collectiveGames'">
+                            <div class="card-body d-flex flex-column justify-content-center">
+                                <div class="d-flex justify-content-center mb-2">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/games.svg') }}" alt="games">
+                                </div>
+                                <h5 class="card-title text-center">Збірні ігри</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6 d-flex justify-content-center p-0">
+                        <div class="card card-custom" onclick="location.href='{{ route('quest') }}'">
+                            <div class="card-body d-flex flex-column justify-content-center">
+                                <div class="d-flex justify-content-center mb-2">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/games.svg') }}" alt="games">
+                                </div>
+                                <h5 class="card-title text-center">Квест "Ракетна База"</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev d-none d-md-flex" href="#heroCarousel" role="button" data-slide="prev">
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="36" height="36" rx="18" fill="#F9FAFB"/>
-                    <path d="M20.6667 12.6667L15.3333 18L20.6667 23.3334" stroke="#1B1C1E" stroke-width="2"
-                          stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <span class="sr-only">Попередня</span>
-            </a>
-            <a class="carousel-control-next d-none d-md-flex" href="#heroCarousel" role="button" data-slide="next">
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="36" height="36" rx="18" fill="#F9FAFB"/>
-                    <path d="M15.3334 23.3334L20.6667 18L15.3334 12.6667" stroke="#1B1C1E" stroke-width="2"
-                          stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <span class="sr-only">Наступна</span>
-            </a>
+            <div class="d-flex flex-column align-items-md-center buttons-container mt-5 px-3 px-md-0">
+                <button type="button" class="btn btn-orange-big mt-2" data-toggle="modal" data-target="#contactFormModal">
+                    ЗАБРОНЮВАТИ
+                </button>
+                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}" alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                </a>
+                <div class="w-100 d-flex justify-content-center mt-md-3 mt-0">
+                    <button type="button" class="btn we-offer mt-md-5 mt-3" data-anchor="#weOffer">
+                        <img class="img-fluid" src="{{ asset('storage/icons/we-offer.svg') }}" alt="Наші Послуги">
+                    </button>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="weOffer" class="py-5">
         <div class="container">
             <h2 class="text-center text-title">Ми пропонуємо</h2>
-            <p class="text-center text-subtitle mt-4">Поринути у світ ігор Лазертаг та Квесту "Ракетна База" на лівому
-                березі міста
-                Дніпро</p>
-            <div class="row justify-content-center mt-5">
-                <div class="col-lg-5 col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <img class="img-fluid" src="{{ asset('storage/icons/birthday.svg') }}" alt="birthday">
-                            </div>
-                            <h5 class="card-title">Організація дитячого Дня Народження</h5>
-                            <p class="card-text text-muted">Веселе та активне святкування, де діти змагаються між собою
-                                в інтерактивній грі з використанням лазерних бластерів та спеціальних жилетів.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <img class="img-fluid" src="{{ asset('storage/icons/team.svg') }}" alt="team">
-                            </div>
-                            <h5 class="card-title">Проведення Корпоративів, Тімбілдингів</h5>
-                            <p class="card-text text-muted">Заходи для співробітників компаній, спрямовані на покращення
-                                командної роботи. Це не тільки цікаве дозвілля, але й можливість зміцнити корпоративний
-                                дух.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <img class="img-fluid" src="{{ asset('storage/icons/section.svg') }}" alt="section">
-                            </div>
-                            <h5 class="card-title">Дитяча секція спортивного лазертагу</h5>
-                            <p class="card-text text-muted">Регулярні тренування для дітей, де вони навчаються основам
-                                гри в лазертаг, розвивають фізичні та стратегічні навички.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <img class="img-fluid" src="{{ asset('storage/icons/games.svg') }}" alt="games">
-                            </div>
-                            <h5 class="card-title">Збірні ігри</h5>
-                            <p class="card-text text-muted">Веселе та активне святкування, де діти змагаються між собою
-                                в інтерактивній грі з використанням лазерних бластерів та спеціальних жилетів.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <img class="img-fluid" src="{{ asset('storage/icons/adult.svg') }}" alt="adult">
-                            </div>
-                            <h5 class="card-title">Тренування для Дорослих</h5>
-                            <p class="card-text text-muted">Веселе та активне святкування, де діти змагаються між собою
-                                в інтерактивній грі з використанням лазерних бластерів та спеціальних жилетів.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="products" class="py-5">
-        <div class="container">
-            <div class="row">
+            <p class="text-center text-subtitle text-muted py-2 py-md-4 m-0">Поринути у світ ігор Лазертаг та Квесту "Ракетна База" на лівому
+                березі міста Дніпро</p>
+            <div class="row mt-5">
                 <div class="col-md-12">
                     <div class="card flex-md-row mb-4 box-shadow h-md-250">
                         <div>
@@ -304,7 +275,7 @@
         <div class="full-width py-5" style="background-image: url('{{ asset('storage/images/book.jpeg') }}')">
             <div class="overlay"></div>
             <div class="container w-100 pt-5 pb-3 px-0">
-                <div class="row justify-content-between align-items-center info-container px-3 px-md-4">
+                <div class="row justify-content-between align-items-center info-container px-1 px-md-2 mx-0">
                     <div class="col-12 col-md-6 order-2 order-md-1 py-5">
                         <div class="video-info">
                             <h2 class="text-left">Поринь у світ тактичних боїв та забронюй свою гру вже сьогодні!</h2>
@@ -356,15 +327,17 @@
                         <a class="link" href="tel:+380964862244">+38 (096) 486 2244</a>,
                         <a class="link" href="tel:+380994862244">+38 (099) 486 2244</a>
                     </p>
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">
-                            <path fill="#5B5E63"
-                                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
-                        </svg>
-                        <a class="link" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
-                            Instagram
+                    <div class="d-flex">
+                        <a href="viber://chat?number=%2B380964862244" target="_blank">
+                            <img class="img-fluid" src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
                         </a>
-                    </p>
+                        <a class="mx-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                            <img class="img-fluid" src="{{ asset('storage/icons/instagram.svg') }}" alt="instagram">
+                        </a>
+                        <a href="https://t.me/lazertagclub_voinushka" target="_blank">
+                            <img class="img-fluid" src="{{ asset('storage/icons/telegram.svg') }}" alt="telegram">
+                        </a>
+                    </div>
                 </div>
 
                 <form id="contactForm" class="w-100" action="{{ route('form.submit') }}" method="POST">
