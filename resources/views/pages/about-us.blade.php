@@ -201,9 +201,9 @@
 
     <section id="playground" class="py-5">
         <div class="container">
-            <h2 class="text-center text-title">Ігрова зона</h2>
+            <h2 class="text-center text-title">Ігровий майданчик</h2>
             <p class="text-center text-subtitle text-muted py-4">Вражає своєю різноманітністю перешкод та декорацій, створюючи захопливу атмосферу для захоплюючих і динамічних баталій</p>
-            <div class="py-5">
+            <div class="py-2 py-md-5">
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
                         <div>
@@ -214,9 +214,15 @@
                                 джунглі, які в літній період частково поросли зеленню як усередині, так і зовні.</p>
                         </div>
                         <div>
-                            <button type="button" class="btn btn-orange-big mt-3 mt-md-0" data-toggle="modal"
+                            <button type="button" class="btn btn-orange-big mt-0" data-toggle="modal"
                                     data-target="#contactFormModal">ЗАБРОНЮВАТИ
                             </button>
+                            <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                               href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                               target="_blank">
+                                <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}"
+                                     alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-6 order-md-2 order-1 mb-4 mb-md-0">
