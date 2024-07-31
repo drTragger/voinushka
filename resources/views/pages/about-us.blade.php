@@ -78,7 +78,7 @@
                         <div class="card card-custom" onclick="location.href='{{ route('quest') }}'">
                             <div class="card-body d-flex flex-column justify-content-center">
                                 <div class="d-flex justify-content-center mb-2">
-                                    <img class="img-fluid" src="{{ asset('storage/icons/games.svg') }}" alt="games">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/quest.svg') }}" alt="quest">
                                 </div>
                                 <h5 class="card-title text-center">Квест "Ракетна База"</h5>
                             </div>
