@@ -17,6 +17,22 @@ header > nav {
     }
 }
 
+@media (max-width: 576px) {
+    .navbar {
+        max-height: 100vh;
+        overflow-y: auto; /* Enable horizontal scrolling */
+        white-space: nowrap; /* Prevent line breaks within the navbar */
+    }
+
+    .navbar-nav {
+        flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    }
+
+    .nav-item {
+        white-space: nowrap; /* Prevent line breaks within items */
+    }
+}
+
 .navbar.scrolled {
     opacity: 1;
 }
