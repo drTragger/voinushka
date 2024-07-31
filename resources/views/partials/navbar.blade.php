@@ -26,7 +26,7 @@
         </ul>
         <ul class="navbar-nav ml-auto align-items-center">
             <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link mx-1" href="https://google.com" target="_blank">
+                <a class="nav-link mx-1" href="viber://chat?number=%2B380964862244" target="_blank">
                     <img src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
                 </a>
                 <a class="nav-link m-0" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">

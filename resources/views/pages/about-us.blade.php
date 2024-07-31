@@ -6,7 +6,7 @@
             <div class="container justify-content-center contacts-container align-items-center d-md-none">
                 <div class="contacts-info d-flex justify-content-between align-items-center">
                     <div>
-                        <a class="mr-3" href="https://google.com" target="_blank">
+                        <a class="mr-3" href="viber://chat?number=%2B380964862244" target="_blank">
                             <img src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
                         </a>
                         <a class="mr-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
