@@ -55,7 +55,7 @@
                 <a class="nav-link" href="https://www.google.com/maps/place/Лазертаг+Днепр+(лазерные+бои)+%22Войнушка%22.+Лазертаг+Днепропетровск/@48.5297559,35.0182589,15z/data=!4m8!3m7!1s0x40d958b4c19fabcb:0xebd8845b727427e1!8m2!3d48.5297559!4d35.0182589!9m1!1b1!16s%2Fg%2F11bxgn4_k7?entry=ttu">ВІДГУКИ</a>
             </li>
         </ul>
-        <ul class="navbar-nav ml-auto align-items-center">
+        <ul class="navbar-nav ml-auto align-items-center pb-5 pb-md-0">
             <li class="nav-item d-flex justify-content-center">
                 <a class="nav-link m-0" href="viber://chat?number=%2B380964862244" target="_blank">
                     <img src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
@@ -72,7 +72,7 @@
                 <a class="nav-link" href="tel:+380964862244">+38 (096) 486 2244</a>
                 <a class="nav-link" href="tel:+380994569009">+38 (099) 456 9009</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item pb-5 pb-md-0">
                 <button type="button" class="btn btn-orange" data-toggle="modal" data-target="#contactFormModal">
                     ЗАБРОНЮВАТИ
                 </button>

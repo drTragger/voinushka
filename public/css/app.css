@@ -46,6 +46,20 @@
     color: #1B1C1E;
 }
 
+.navbar {
+    max-height: 100vh;
+    overflow-y: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks within the navbar */
+}
+
+.navbar-nav {
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+}
+
+.nav-item {
+    white-space: nowrap; /* Prevent line breaks within items */
+}
+
 html {
     scroll-behavior: smooth;
 }
