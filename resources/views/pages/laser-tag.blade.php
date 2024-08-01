@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Лазертаг')
 
 @section('content')
     <section id="laserTagHero" class="position-relative mb-5"

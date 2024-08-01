@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Войнушка')
 
 @section('content')
     <section id="heroBlock" class="pb-5">

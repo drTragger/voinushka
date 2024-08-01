@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Квест "Ракетна База"')
 
 @section('content')
     <section id="questHero" class="position-relative mb-5"
