@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-xl navbar-dark fixed-top not-scrolled">
     <a class="navbar-brand p-0" href="{{ route('aboutUs') }}">
-        <img src="{{ asset('storage/images/logo-1.svg') }}" alt="Logo" class="logo img-fluid">
+        <img src="{{ asset('storage/images/logo.svg') }}" alt="Logo" class="logo img-fluid">
     </a>
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
             data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
