@@ -3,10 +3,10 @@
 
 @section('content')
     <section id="questHero" class="position-relative mb-5"
-             style="background-image: url('{{ asset('storage/images/lasertag-hero.png') }}');">
-        <div class="d-flex flex-column justify-content-center">
-            <div
-                class="d-flex flex-column justify-content-center align-items-center text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
+             style="background-image: url('{{ asset('storage/images/quest-hero.jpg') }}'); background-size: cover; background-position: center;">
+        <div class="overlay"></div>
+        <div class="d-flex flex-column justify-content-center position-relative" style="z-index: 2;">
+            <div class="d-flex flex-column justify-content-center align-items-center text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
                 <h1 class="mt-0">Квест <br class="d-md-none">"Ракетна База"</h1>
                 <p class="mt-4 mb-0">Поринь у незабутню легенду, та стань головним героєм її подій</p>
             </div>
@@ -47,14 +47,14 @@
                 </div>
                 <div class="icon">
                     <img class="img-fluid" src="{{ asset('storage/icons/users.svg') }}" alt="kid">
-                    <span class="text-white">10 - 60 учасників</span>
+                    <span class="text-white">4 - 10 учасників</span>
                 </div>
             </div>
         </div>
-        <div class="d-flex flex-column align-items-md-center buttons-container px-3 px-md-0">
+        <div class="d-flex flex-column align-items-md-center buttons-container px-3 px-md-0 position-relative" style="z-index: 2;">
             <div class="laser-tag-hero-price">
-                <h2>200 грн</h2>
-                <p>з однієї людини</p>
+                <h2>2000 грн</h2>
+                <p>60 хвилин</p>
             </div>
             <button type="button" class="btn btn-orange-big mt-2" data-toggle="modal" data-target="#contactFormModal">
                 ЗАБРОНЮВАТИ
@@ -65,7 +65,7 @@
                 В ІНСТАГРАМ
             </a>
         </div>
-        <div class="position-absolute w-100 d-flex justify-content-center align-items-center" style="bottom: 16px;">
+        <div class="position-absolute w-100 d-flex justify-content-center align-items-center" style="bottom: 16px; z-index: 2;">
             <button type="button" class="btn we-offer p-0" data-anchor="#weapons">
                 <img class="img-fluid" src="{{ asset('storage/icons/about-quest.svg') }}" alt="Наші Послуги">
             </button>
@@ -82,13 +82,13 @@
                             <p class="text-subtitle">Спецпідрозділ ГУР знайшов стару совєтську ракетну базу, в шахтах
                                 якої знаходяться балістичні ракети. Використовуючи ці ракети, ми можемо нанести
                                 ракетно-бомбовий удар по наших ворогах. На жаль, на зворотному шляху група потрапила в
-                                засідку і була знищена. Однак нам вдалося здобути шматок карти, яка може привести нас до
+                                засідку і була знищена. Однак нам вдалося здобути частину карти, яка може привести нас до
                                 цієї бази. Необхідно сформувати новий спецпідрозділ, щоб знайти цю базу і запустити
                                 ракети.</p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
-                                <h2 class="text-center text-title">200 грн / 1 год.</h2>
+                                <h2 class="text-center text-title">2000 грн / 1 год.</h2>
                                 <p class="text-subtitle text-center m-0">з однієї людини</p>
                             </div>
                             <div class="order-2 order-md-1">
@@ -129,6 +129,42 @@
                          alt="Світлина 3">
                 </li>
             </ul>
+        </div>
+    </section>
+
+    <section id="ltPlusQuest" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-title-2">Спеціальна Пропозиція</h2>
+            <div class="py-4 py-md-5">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
+                        <div class="mb-4">
+                            <p class="text-subtitle mb-0 mt-4 mt-md-0" style="font-size: 24px">Тематичний лазертаг 2 години + Квест</p>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
+                                <h2 class="text-center text-title">7000 грн</h2>
+                                <p class="text-subtitle text-center m-0">група до 10 учасників</p>
+                            </div>
+                            <div class="order-2 order-md-1">
+                                <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
+                                        data-target="#contactFormModal">ЗАБРОНЮВАТИ
+                                </button>
+                                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                                   href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                                   target="_blank">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}"
+                                         alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-2 order-1">
+                        <img src="{{ asset('storage/images/lt-plus-quest.png') }}" class="img-fluid rounded-image"
+                             alt="Тренування для дорослих">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

@@ -51,7 +51,7 @@ html {
 }
 
 .about-us-hero {
-    height: 724px;
+    min-height: 724px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom 40%;
@@ -60,7 +60,7 @@ html {
 
 @media (max-width: 576px) {
     .about-us-hero {
-        height: 800px;
+        min-height: 924px;
     }
 }
 
@@ -81,7 +81,7 @@ html {
 
 .about-us-hero .links-container {
     margin-top: 11.8125rem;
-    width: 694px;
+    max-width: 1000px;
 }
 
 .about-us-hero .contacts-container {

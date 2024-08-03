@@ -5,8 +5,7 @@
     <section id="laserTagHero" class="position-relative mb-5"
              style="background-image: url('{{ asset('storage/images/lasertag-hero.png') }}');">
         <div class="d-flex flex-column justify-content-center mb-5">
-            <div
-                class="d-flex flex-column justify-content-center align-items-center text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
+            <div class="d-flex flex-column justify-content-center align-items-center text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
                 <h1 class="mt-0">Лазертаг у клубі "Войнушка"</h1>
                 <p class="mt-4 mb-0">Незабутні пригоди та активний відпочинок для Дітей та Дорослих</p>
             </div>
@@ -71,7 +70,7 @@
     <section id="weapons" class="py-5">
         <div class="container">
             <h2 class="text-center text-title-2">Різноманітні види арсеналу</h2>
-            <p class="text-center text-subtitle text-muted py-2 py-md-4 m-0">Лазертаг клуб "Войнушка" у Дніпрі має один
+            <p class="text-center text-subtitle text-muted pt-2 pt-md-3 m-0">Лазертаг клуб "Войнушка" у Дніпрі має один
                 з найбільших арсеналів гри в Лазертаг</p>
             <div class="py-4 py-md-5">
                 <div class="row">
@@ -147,22 +146,21 @@
 
     <section id="birthday" class="pt-5">
         <div class="container pt-md-5">
-            <h2 class="text-center text-title-2">Проведення дитячого Дня Народження</h2>
-            <p class="text-center text-subtitle text-muted py-2 py-md-4">Зробіть неймовірний подарунок вашій дитині</p>
-            <div class="pt-2 pt-md-5">
+            <h2 class="text-center text-title-2">Проведення Дня Народження</h2>
+            <p class="text-center text-subtitle text-muted pt-2 pt-md-3">Зробіть неймовірний подарунок вашій дитині</p>
+            <div class="pt-3 pt-md-5">
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
                         <div class="mb-4">
-                            <p class="text-subtitle mb-0 mt-4 mt-md-0">Три години драйву та адреналіну ми вам гарантуємо. Робота
-                                інструкторів, орендний камуфляж, радіостанції за необхідності, фотозвіт та, за
-                                погодженням, польова кухня — все це додатково надає ЛК «Войнушка».<br>
-                                Лазертаг — це універсальна гра, яка дозволить оригінально відзначити дитячий день
-                                народження та отримати море адреналіну та позитивних емоцій. Корпоративний лазертаг — це
-                                відмінний спосіб згуртувати команду та провести незабутній час разом.</p>
+                            <p class="text-subtitle mb-0 mt-4 mt-md-0">Три з половиною години драйву та адреналіну ми
+                                вам гарантуємо. Робота інструкторів, оренда камуфляжу, радіостанції за потреби, фотозвіт
+                                і, найголовніше, дуже доступна ціна — усе це пропонує Лазертаг клуб «Войнушка».<br>Лазертаг
+                                — це універсальна гра, яка дозволить оригінально відзначити день народження та отримати
+                                море адреналіну і позитивних емоцій.</p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
-                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
+                                <h2 class="text-center text-title">650 грн / 3,5 год.</h2>
                                 <p class="text-subtitle text-center m-0">з однієї людини</p>
                             </div>
                             <div class="order-2 order-md-1">
@@ -224,18 +222,23 @@
     <section id="corporates" class="pt-5">
         <div class="container pt-md-5">
             <h2 class="text-center text-title-2">Проведення Корпоративів, Тімбілдингів</h2>
-            <p class="text-center text-subtitle text-muted py-2">Зробіть неймовірний подарунок вашій дитині</p>
-            <div class="pt-2">
+            <div class="pt-3 pt-md-5">
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
                         <div class="mb-4">
-                            <p class="text-subtitle mb-0 mt-4 mt-md-0">Три години драйву та адреналіну ми вам гарантуємо. Робота
-                                інструкторів, орендний камуфляж, радіостанції за необхідності, фотозвіт та, за
-                                погодженням, польова кухня — все це додатково надає ЛК «Войнушка».</p>
+                            <p class="text-subtitle mb-0 mt-4 mt-md-0">Корпоратив у Лазертаг клубі «Войнушка» — це
+                                можливість дуже незвичайно відсвяткувати свято вашим колективом. Великий ігровий
+                                майданчик, який може вмістити групу до 60 гравців, різноманітний арсенал і,
+                                найголовніше, дуже цікаві сценарії — усе це вас очікує в Лазертаг клубі «Войнушка».<br>Три
+                                з половиною години драйву та адреналіну дозволять згуртувати ваш колектив в одну єдину
+                                команду. Робота інструкторів, оренда камуфляжу, радіостанції за потреби, фотозвіт і,
+                                найголовніше, дуже доступна ціна — усе це пропонує Лазертаг клуб «Войнушка».<br>За
+                                бажанням після гри є можливість розміститися в зонах відпочинку для продовження свята.
+                            </p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
-                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
+                                <h2 class="text-center text-title">650 грн / 3,5 год.</h2>
                                 <p class="text-subtitle text-center m-0">з однієї людини</p>
                             </div>
                             <div class="order-2 order-md-1">
@@ -267,9 +270,11 @@
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
                         <div class="mb-4">
-                            <p class="text-subtitle mb-0 mt-4 mt-md-0">Вам подобається активний відпочинок, вам до душі
-                                віськово-спортивна тематика, але ви не маєте своєї команди? Запрошуємо на збірну гру -
-                                три з половиною години активного відпочинку в компанії однодумців вам гарантовано.</p>
+                            <p class="text-subtitle mb-0 mt-4 mt-md-0">Вам подобається активний відпочинок? Вам до душі
+                                військово-спортивна тематика, але ви не маєте своєї команди? Запрошуємо вас на збірну
+                                гру кожної неділі — три з половиною години активного відпочинку в компанії однодумців
+                                вам гарантовано.<br>Робота інструкторів, оренда камуфляжу, радіостанції за потреби і,
+                                найголовніше, дуже доступна ціна — усе це пропонує Лазертаг клуб «Войнушка».</p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
@@ -305,15 +310,15 @@
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
                         <div class="mb-4">
-                            <p class="text-subtitle mb-0 mt-4 mt-md-0">Як що у вас є бажання пройти базовий курс молодого бійця,
-                                запрошуємо вас на військове тактичне тренування.
-                                Тактика, стратегія, такмед, евакуація поранених, навики праці в парах, трійках і більш
-                                великих бойових підрозділах, вміння ходити в приміщеннях і в зелених
-                                зонах, а також багато інших навиків.</p>
+                            <p class="text-subtitle mb-0 mt-4 mt-md-0">Якщо у вас є бажання пройти базовий курс молодого
+                                бійця, запрошуємо вас на військове тактичне тренування. Тактика, стратегія, тактична
+                                медицина, евакуація поранених, навички роботи в парах, трійках і більших бойових
+                                підрозділах, вміння пересуватися в приміщеннях і в зелених зонах, а також багато інших
+                                навичок.<br>Мінімальний курс — 10 занять, мінімальна група — 8-10 бійців.</p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
-                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
+                                <h2 class="text-center text-title">650 грн / 3,5 год.</h2>
                                 <p class="text-subtitle text-center m-0">з однієї людини</p>
                             </div>
                             <div class="order-2 order-md-1">
@@ -345,17 +350,19 @@
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
                         <div class="mb-4">
-                            <p class="text-subtitle mb-0 mt-4 mt-md-0">В Секції спортивного лазертагу ваша дитина навчитися
-                                основним
-                                базовим віськово спортивним навикам, буде вивчати тактику і стратегію, основи
-                                комунікацій з використанням портативних
-                                радіостанцій, тактичну медицину, формування бойових груп, а також
-                                вміння працювати в таких групах і багато чого ще дуже цікавого.</p>
+                            <p class="text-subtitle mb-0 mt-4 mt-md-0">У секції спортивного лазертагу ваша дитина
+                                навчиться основним базовим військово-спортивним навичкам. Вона буде вивчати тактику і
+                                стратегію, основи комунікацій з використанням портативних радіостанцій, тактичну
+                                медицину, формування бойових підрозділів, а також уміння працювати в бойових групах
+                                різного складу і багато чого ще дуже цікавого.<br>Тренування проходять один раз на
+                                тиждень у неділю з 10:00 до 13:30.<br>Три з половиною години активного відпочинку на
+                                свіжому повітрі — значно краще, ніж той самий час сидіння з гаджетом.</p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
-                                <h2 class="text-center text-title">550 грн / 3,5 год.</h2>
-                                <p class="text-subtitle text-center m-0">з однієї людини</p>
+                                <h2 class="text-center text-title">650 грн / 3,5 год.</h2>
+                                <p class="text-subtitle text-center m-0">за одне тренування (мін 2 тренування на
+                                    місяць)</p>
                             </div>
                             <div class="order-2 order-md-1">
                                 <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
@@ -381,14 +388,12 @@
 
     <section id="video" class="py-5">
         <div class="full-width py-5" style="background-image: url('{{ asset('storage/images/lt-video.jpeg') }}')">
-            <div class="overlay"></div>
             <div class="container w-100 pt-5 pb-3 px-0">
                 <div class="row justify-content-between align-items-center info-container px-3 px-md-4 mx-0">
                     <div class="col-12 col-md-6 order-2 order-md-1 py-5">
                         <div class="video-info">
                             <h2 class="text-left text-white">Оригінально відзначте дитячий день народження, проведіть
-                                корпоратив,
-                                тімбілдинг, парубочий вечір, або просто весело проведіть час!</h2>
+                                корпоратив, тімбілдинг, парубочий вечір, або просто весело проведіть час!</h2>
                             <div class="mt-4">
                                 <button type="button" class="btn btn-orange-big" data-toggle="modal"
                                         data-target="#contactFormModal">ЗАБРОНЮВАТИ
@@ -441,7 +446,8 @@
                         <a href="viber://chat?number=%2B380964862244" target="_blank">
                             <img class="img-fluid" src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
                         </a>
-                        <a class="mx-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                        <a class="mx-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                           target="_blank">
                             <img class="img-fluid" src="{{ asset('storage/icons/instagram.svg') }}" alt="instagram">
                         </a>
                         <a href="https://t.me/lazertagclub_voinushka" target="_blank">

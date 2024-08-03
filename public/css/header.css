@@ -60,6 +60,7 @@ nav .fa-instagram {
 
 .navbar-brand .logo {
     margin-right: 10px;
+    max-width: 200px;
 }
 
 .nav-link {

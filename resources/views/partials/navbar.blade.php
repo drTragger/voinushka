@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-xl navbar-dark fixed-top not-scrolled">
     <a class="navbar-brand p-0" href="{{ route('aboutUs') }}">
-        <img src="{{ asset('storage/images/logo.svg') }}" alt="Logo" class="logo">
+        <img src="{{ asset('storage/images/logo-1.svg') }}" alt="Logo" class="logo img-fluid">
     </a>
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
             data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +72,7 @@
                 <a class="nav-link" href="tel:+380964862244">+38 (096) 486 2244</a>
                 <a class="nav-link" href="tel:+380994569009">+38 (099) 456 9009</a>
             </li>
-            <li class="nav-item pb-5 pb-md-0">
+            <li class="nav-item pb-5 pb-md-0 d-md-none">
                 <button type="button" class="btn btn-orange" data-toggle="modal" data-target="#contactFormModal">
                     ЗАБРОНЮВАТИ
                 </button>

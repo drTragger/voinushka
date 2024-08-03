@@ -10,7 +10,8 @@
                         <a class="mr-3" href="viber://chat?number=%2B380964862244" target="_blank">
                             <img src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
                         </a>
-                        <a class="mr-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                        <a class="mr-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                           target="_blank">
                             <img src="{{ asset('storage/icons/instagram.svg') }}" alt="instagram">
                         </a>
                         <a class="mr-3" href="https://t.me/lazertagclub_voinushka" target="_blank">
@@ -25,17 +26,18 @@
             </div>
             <div class="content container d-flex justify-content-center align-items-center">
                 <div class="row justify-content-center links-container">
-                    <div class="col-md-4 col-6 mb-md-4 mb-3 d-flex justify-content-center p-0">
+                    <div class="col-md-3 col-6 mb-md-4 mb-3 d-flex justify-content-center p-0">
                         <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#birthday'">
                             <div class="card-body d-flex flex-column justify-content-center">
                                 <div class="d-flex justify-content-center mb-2">
-                                    <img class="img-fluid" src="{{ asset('storage/icons/birthday.svg') }}" alt="birthday">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/birthday.svg') }}"
+                                         alt="birthday">
                                 </div>
                                 <h5 class="card-title text-center">Організація дитячого Дня Народження</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-6 mb-md-4 mb-3 d-flex justify-content-center p-0">
+                    <div class="col-md-3 col-6 mb-md-4 mb-3 d-flex justify-content-center p-0">
                         <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#corporates'">
                             <div class="card-body d-flex flex-column justify-content-center">
                                 <div class="d-flex justify-content-center mb-2">
@@ -45,7 +47,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-6 mb-md-4 mb-3 d-flex justify-content-center align-items-center p-0">
+                    <div class="col-md-3 col-6 mb-md-4 mb-3 d-flex justify-content-center align-items-center p-0">
                         <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#adultsTraining'">
                             <div class="card-body d-flex flex-column justify-content-center">
                                 <div class="d-flex justify-content-center mb-2">
@@ -55,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-6 mb-md-0 mb-3 d-flex justify-content-center p-0">
+                    <div class="col-md-3 col-6 mb-md-0 mb-3 d-flex justify-content-center p-0">
                         <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#kidsSection'">
                             <div class="card-body d-flex flex-column justify-content-center">
                                 <div class="d-flex justify-content-center mb-2">
@@ -65,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-6 d-flex justify-content-center p-0">
+                    <div class="col-md-4 col-6 d-flex justify-content-center p-0 mb-3 mb-md-0">
                         <div class="card card-custom" onclick="location.href='{{ route('laserTag') }}#collectiveGames'">
                             <div class="card-body d-flex flex-column justify-content-center">
                                 <div class="d-flex justify-content-center mb-2">
@@ -75,7 +77,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-6 d-flex justify-content-center p-0">
+                    <div class="col-md-4 col-6 d-flex justify-content-center p-0 mb-3 mb-md-0">
                         <div class="card card-custom" onclick="location.href='{{ route('quest') }}'">
                             <div class="card-body d-flex flex-column justify-content-center">
                                 <div class="d-flex justify-content-center mb-2">
@@ -85,14 +87,27 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 col-6 d-flex justify-content-center p-0">
+                        <div class="card card-custom" onclick="location.href='{{ route('quest') }}#ltPlusQuest'">
+                            <div class="card-body d-flex flex-column justify-content-center">
+                                <div class="d-flex justify-content-center mb-2">
+                                    <img class="img-fluid" src="{{ asset('storage/icons/special.svg') }}" alt="quest">
+                                </div>
+                                <h5 class="card-title text-center">Спеціальна<br/>Пропозиція</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="d-flex flex-column align-items-md-center buttons-container mt-5 px-3 px-md-0">
-                <button type="button" class="btn btn-orange-big mt-2" data-toggle="modal" data-target="#contactFormModal">
+                <button type="button" class="btn btn-orange-big mt-2" data-toggle="modal"
+                        data-target="#contactFormModal">
                     ЗАБРОНЮВАТИ
                 </button>
-                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
-                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}" alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ В ІНСТАГРАМ
+                <a class="btn btn-outline-orange-big btn-instagram mt-3 d-md-none"
+                   href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                    <img class="img-fluid" src="{{ asset('storage/icons/instagram-orange.svg') }}" alt="Instagram">&nbsp;&nbsp;&nbsp;НАПИСАТИ
+                    В ІНСТАГРАМ
                 </a>
                 <div class="w-100 d-flex justify-content-center mt-md-3 mt-0">
                     <button type="button" class="btn we-offer mt-md-5 mt-3" data-anchor="#weOffer">
@@ -106,7 +121,8 @@
     <section id="weOffer" class="py-5">
         <div class="container">
             <h2 class="text-center text-title">Ми пропонуємо</h2>
-            <p class="text-center text-subtitle text-muted py-2 py-md-4 m-0">Поринути у світ ігор Лазертаг та Квесту "Ракетна База" на лівому
+            <p class="text-center text-subtitle text-muted py-2 py-md-4 m-0">Поринути у світ ігор Лазертаг та Квесту
+                "Ракетна База" на лівому
                 березі міста Дніпро</p>
             <div class="row mt-5">
                 <div class="col-md-12">
@@ -203,15 +219,20 @@
     <section id="playground" class="py-5">
         <div class="container">
             <h2 class="text-center text-title">Ігровий майданчик</h2>
-            <p class="text-center text-subtitle text-muted py-4">Вражає своєю різноманітністю перешкод та декорацій, створюючи захопливу атмосферу для захоплюючих і динамічних баталій</p>
-            <div class="py-2 py-md-5">
+            <p class="text-center text-subtitle text-muted pt-2 pt-md-3 m-0">Вражає своєю різноманітністю перешкод та
+                декорацій, створюючи
+                захопливу атмосферу для цікавих і динамічних баталій</p>
+            <div class="py-4 py-md-5">
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
                         <div>
                             <p class="text-subtitle">Ігрова зона «Караван» розташована на лівому березі, в районі
-                                гіпермаркету Караван.<br>Ігровий майданчик — це величезний бетонний комплекс площею
-                                10000 кв. метрів. Вся територія комплексу знаходиться під дахом; це свого роду бетонні
-                                джунглі, які в літній період частково поросли зеленню як усередині, так і зовні.</p>
+                                гіпермаркету Караван. Ігровий майданчик — це величезний бетонний комплекс площею 10 000
+                                кв. метрів та 3 000 кв. м відкритої площадки — зеленої зони.<br>Територія комплексу не
+                                має поверхів і побудована в один ярус, знаходиться під дахом; це свого роду бетонні
+                                джунглі, які дозволяють нам не сильно залежати від погодних умов.<br>Під час літньої
+                                спеки під дахом завжди приємна прохолода, а під час дощу або снігу вам на голову нічого
+                                не капатиме.</p>
                         </div>
                         <div>
                             <button type="button" class="btn btn-orange-big mt-0" data-toggle="modal"
@@ -337,7 +358,8 @@
                         <a href="viber://chat?number=%2B380964862244" target="_blank">
                             <img class="img-fluid" src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
                         </a>
-                        <a class="mx-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                        <a class="mx-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                           target="_blank">
                             <img class="img-fluid" src="{{ asset('storage/icons/instagram.svg') }}" alt="instagram">
                         </a>
                         <a href="https://t.me/lazertagclub_voinushka" target="_blank">
