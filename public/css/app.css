@@ -301,3 +301,8 @@ footer .link {
 .rounded-image {
     border-radius: 12px;
 }
+
+.full-width {
+    background-repeat: no-repeat;
+    background-position: center;
+}

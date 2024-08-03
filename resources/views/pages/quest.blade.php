@@ -171,7 +171,7 @@
     <section id="form" class="py-5 mt-5">
         <div class="contact-section container-fluid px-0 h-100">
             <div class="col-12 col-md-6 p-0">
-                <img src="{{ asset('storage/images/form.jpeg') }}" alt="Світлина" class="img-fluid">
+                <img src="{{ asset('storage/images/form.png') }}" alt="Світлина" class="img-fluid">
             </div>
             <div
                 class="contact-form col-12 col-md-6 d-flex flex-column justify-content-between align-items-start h-100">
