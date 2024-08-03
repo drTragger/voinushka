@@ -300,7 +300,6 @@
 
     <section id="video" class="py-5">
         <div class="full-width py-5" style="background-image: url('{{ asset('storage/images/book.jpeg') }}')">
-            <div class="overlay"></div>
             <div class="container w-100 pt-5 pb-3 px-0">
                 <div class="row justify-content-between align-items-center info-container px-1 px-md-2 mx-0">
                     <div class="col-12 col-md-6 order-2 order-md-1 py-5">
