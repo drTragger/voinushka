@@ -25,7 +25,7 @@
                             <img class="img-fluid" src="{{ asset('storage/icons/time.svg') }}" alt="time">
                         </div>
                     </div>
-                    <p class="m-0">1 година</p>
+                    <p class="m-0">60 хвилин</p>
                 </div>
                 <div class="d-flex flex-column justify-content-center p-4 mx-3 my-2 my-md-0 laser-tag-card text-center">
                     <div class="icon-container">
@@ -43,7 +43,7 @@
                 </div>
                 <div class="icon mb-3">
                     <img class="img-fluid" src="{{ asset('storage/icons/time.svg') }}" alt="time">
-                    <span class="text-white">3,5 години</span>
+                    <span class="text-white">60 хвилин</span>
                 </div>
                 <div class="icon">
                     <img class="img-fluid" src="{{ asset('storage/icons/users.svg') }}" alt="kid">
@@ -88,7 +88,7 @@
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
-                                <h2 class="text-center text-title">2000 грн / 1 год.</h2>
+                                <h2 class="text-center text-title">2000 грн / 60 хв.</h2>
                                 <p class="text-subtitle text-center m-0">з однієї людини</p>
                             </div>
                             <div class="order-2 order-md-1">
@@ -139,7 +139,7 @@
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
                         <div class="mb-4">
-                            <p class="text-subtitle mb-0 mt-4 mt-md-0" style="font-size: 24px">Тематичний лазертаг 2 години + Квест</p>
+                            <p class="text-subtitle mb-0 mt-4 mt-md-0" style="font-size: 24px">Тематичний лазертаг <br class="d-md-none">2 години + Квест</p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">

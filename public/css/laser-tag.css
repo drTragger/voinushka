@@ -136,3 +136,9 @@
 .laser-tag-card .icon-container img {
     margin-right: 0.5rem;
 }
+
+@media (max-width: 576px) {
+    #ltPlusQuest .text-subtitle {
+        text-align: center;
+    }
+}
