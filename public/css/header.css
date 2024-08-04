@@ -6,6 +6,20 @@ header > nav {
     transition: opacity 0.5s ease-in-out;
 }
 
+@media (max-width: 1366px) {
+    header > nav {
+        padding: 10px 16px !important;
+    }
+
+    header .nav-link {
+        font-size: 12px;
+    }
+
+    .navbar-brand {
+        margin-right: .8rem !important;
+    }
+}
+
 @media (max-width: 768px) {
     header > nav.expanded {
         padding: 0 16px 32px 16px !important;
@@ -59,7 +73,6 @@ nav .fa-instagram {
 }
 
 .navbar-brand .logo {
-    margin-right: 10px;
     max-width: 200px;
 }
 

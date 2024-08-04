@@ -4,9 +4,21 @@
     background-position: center;
 }
 
+#laserTagHero {
+    background-image: url('../storage/images/lt-hero.png');
+}
+
 @media (max-width: 576px) {
+    #laserTagHero {
+        background-image: url('../storage/images/lt-hero-mobile.png');
+    }
+
     #laserTagHero, #questHero {
-        height: 800px;
+        min-height: 800px;
+    }
+
+    #ltPlusQuest .text-subtitle {
+        text-align: center;
     }
 }
 
@@ -135,10 +147,4 @@
 
 .laser-tag-card .icon-container img {
     margin-right: 0.5rem;
-}
-
-@media (max-width: 576px) {
-    #ltPlusQuest .text-subtitle {
-        text-align: center;
-    }
 }

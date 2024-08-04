@@ -139,7 +139,9 @@
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
                         <div class="mb-4">
-                            <p class="text-subtitle mb-0 mt-4 mt-md-0" style="font-size: 24px">Тематичний лазертаг <br class="d-md-none">2 години + Квест</p>
+                            <p class="text-subtitle mb-0 mt-4 mt-md-0" style="font-size: 24px">
+                                Тематичний лазертаг <br class="d-md-none">2 години + Квест "Ракетна База" 60 хвилин
+                            </p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">

@@ -2,8 +2,7 @@
 @section('title', 'Лазертаг')
 
 @section('content')
-    <section id="laserTagHero" class="position-relative mb-5"
-             style="background-image: url('{{ asset('storage/images/lasertag-hero.png') }}');">
+    <section id="laserTagHero" class="position-relative mb-5">
         <div class="d-flex flex-column justify-content-center mb-5">
             <div
                 class="d-flex flex-column justify-content-center align-items-center text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
@@ -148,7 +147,7 @@
     <section id="birthday" class="pt-5">
         <div class="container pt-md-5">
             <h2 class="text-center text-title-2">Проведення Дня Народження</h2>
-            <p class="text-center text-subtitle text-muted pt-2 pt-md-3">Зробіть неймовірний подарунок вашій дитині</p>
+            <p class="text-center text-subtitle text-muted pt-2 pt-md-3">Зробіть неймовірний подарунок імениннику</p>
             <div class="pt-3 pt-md-5">
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
@@ -202,7 +201,7 @@
                                 <img src="{{ asset('storage/icons/kid.svg') }}" alt="Вік">
                             </div>
                             <h5 class="card-title">Вік</h5>
-                            <p class="card-text text-muted">Діти віком 7-8 років можуть грати в лазерні бої</p>
+                            <p class="card-text text-muted">Гравці віком 7-70 років можуть грати в лазерні бої</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
@@ -393,7 +392,7 @@
                 <div class="row justify-content-between align-items-center info-container px-3 px-md-4 mx-0">
                     <div class="col-12 col-md-6 order-2 order-md-1 py-5">
                         <div class="video-info">
-                            <h2 class="text-left">Оригінально відзначте дитячий день народження, проведіть
+                            <h2 class="text-left">Оригінально відзначте день народження, проведіть
                                 корпоратив, тімбілдинг, парубочий вечір, або просто весело проведіть час!</h2>
                             <div class="mt-4">
                                 <button type="button" class="btn btn-orange-big" data-toggle="modal"
