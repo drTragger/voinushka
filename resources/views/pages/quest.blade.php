@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <section id="weapons" class="py-5">
+    <section id="aboutQuest" class="py-5">
         <div class="container">
             <h2 class="text-center text-title">Про квест "Ракетна База"</h2>
             <div class="py-5">
