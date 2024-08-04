@@ -78,7 +78,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-6 d-flex justify-content-center p-0 mb-3 mb-md-0">
-                        <div class="card card-custom" onclick="location.href='{{ route('quest') }}'">
+                        <div class="card card-custom" onclick="location.href='{{ route('quest') }}#aboutQuest'">
                             <div class="card-body d-flex flex-column justify-content-center">
                                 <div class="d-flex justify-content-center mb-2">
                                     <img class="img-fluid" src="{{ asset('storage/icons/quest.svg') }}" alt="quest">
@@ -180,7 +180,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="{{ route('quest') }}#aboutQuest" class="btn btn-outline-orange ml-auto">ДЕТАЛЬНІШЕ</a>
+                            <a href="{{ route('quest') }}" class="btn btn-outline-orange ml-auto">ДЕТАЛЬНІШЕ</a>
                         </div>
                     </div>
                 </div>
