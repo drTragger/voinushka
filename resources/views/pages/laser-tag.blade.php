@@ -70,8 +70,8 @@
     <section id="weapons" class="py-5">
         <div class="container">
             <h2 class="text-center text-title-2">Різноманітні види арсеналу</h2>
-            <p class="text-center text-subtitle text-muted pt-2 pt-md-3 m-0">Лазертаг клуб "Войнушка" у Дніпрі має один
-                з найбільших арсеналів гри в Лазертаг</p>
+            <p class="text-center text-subtitle text-muted pt-2 pt-md-3 m-0">Лазертаг клуб “Войнушка” у Дніпрі має один
+                із найбільших арсеналів для гри в Лазертаг</p>
             <div class="py-4 py-md-5">
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
@@ -272,9 +272,10 @@
                         <div class="mb-4">
                             <p class="text-subtitle mb-0 mt-4 mt-md-0">Вам подобається активний відпочинок? Вам до душі
                                 військово-спортивна тематика, але ви не маєте своєї команди? Запрошуємо вас на збірну
-                                гру кожної неділі&nbsp;— три з половиною години активного відпочинку в компанії однодумців
-                                вам гарантовано.<br>Робота інструкторів, оренда камуфляжу, радіостанції за потреби і,
-                                найголовніше, дуже доступна ціна&nbsp;— усе це пропонує Лазертаг клуб «Войнушка».</p>
+                                гру кожної неділі&nbsp;— три з половиною години активного відпочинку в компанії
+                                однодумців вам гарантовано.<br>Робота інструкторів, оренда камуфляжу, радіостанції за
+                                потреби і, найголовніше, дуже доступна ціна&nbsp;— усе це пропонує Лазертаг клуб
+                                «Войнушка».</p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
@@ -403,9 +404,9 @@
                     </div>
                     <div class="col-12 col-md-6 video-container order-1 order-md-2">
                         <iframe width="480" height="280"
-                                src="https://www.youtube.com/embed/NqNIZnKmC6w?si=WGiUANj-XE-pKc7m&amp;controls=0"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                src="https://www.youtube.com/embed/iChbN0OI2Hs?si=bu4kiAXEouQjolUM"
+                                title="Лазертаг" frameborder="0"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>

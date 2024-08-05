@@ -312,11 +312,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 order-md-2 order-1 mb-4 mb-md-0">
+                    <div class="col-12 col-md-6 video-container order-1 order-md-2">
                         <iframe width="480" height="280"
-                                src="https://www.youtube.com/embed/NqNIZnKmC6w?si=WGiUANj-XE-pKc7m&amp;controls=0"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                src="https://www.youtube.com/embed/iChbN0OI2Hs?si=bu4kiAXEouQjolUM"
+                                title="Лазертаг" frameborder="0"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>

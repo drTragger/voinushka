@@ -6,7 +6,8 @@
              style="background-image: url('{{ asset('storage/images/quest-hero.jpg') }}'); background-size: cover; background-position: center;">
         <div class="overlay"></div>
         <div class="d-flex flex-column justify-content-center position-relative" style="z-index: 2;">
-            <div class="d-flex flex-column justify-content-center align-items-center text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
+            <div
+                class="d-flex flex-column justify-content-center align-items-center text-center text-white laser-tag-hero-text mb-4 px-3 px-md-0">
                 <h1 class="mt-0">Квест <br class="d-md-none">"Ракетна База"</h1>
                 <p class="mt-4 mb-0">Поринь у незабутню легенду, та стань головним героєм її подій</p>
             </div>
@@ -51,7 +52,8 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex flex-column align-items-md-center buttons-container px-3 px-md-0 position-relative" style="z-index: 2;">
+        <div class="d-flex flex-column align-items-md-center buttons-container px-3 px-md-0 position-relative"
+             style="z-index: 2;">
             <div class="laser-tag-hero-price">
                 <h2>2000 грн</h2>
                 <p>60 хвилин</p>
@@ -65,7 +67,8 @@
                 В ІНСТАГРАМ
             </a>
         </div>
-        <div class="position-absolute w-100 d-flex justify-content-center align-items-center" style="bottom: 16px; z-index: 2;">
+        <div class="position-absolute w-100 d-flex justify-content-center align-items-center"
+             style="bottom: 16px; z-index: 2;">
             <button type="button" class="btn we-offer p-0" data-anchor="#weapons">
                 <img class="img-fluid" src="{{ asset('storage/icons/about-quest.svg') }}" alt="Наші Послуги">
             </button>
@@ -82,7 +85,8 @@
                             <p class="text-subtitle">Спецпідрозділ ГУР знайшов стару совєтську ракетну базу, в шахтах
                                 якої знаходяться балістичні ракети. Використовуючи ці ракети, ми можемо нанести
                                 ракетно-бомбовий удар по наших ворогах. На жаль, на зворотному шляху група потрапила в
-                                засідку і була знищена. Однак нам вдалося здобути частину карти, яка може привести нас до
+                                засідку і була знищена. Однак нам вдалося здобути частину карти, яка може привести нас
+                                до
                                 цієї бази. Необхідно сформувати новий спецпідрозділ, щоб знайти цю базу і запустити
                                 ракети.</p>
                         </div>
@@ -104,9 +108,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 order-md-2 order-1 mb-4 mb-md-0">
-                        <img src="{{ asset('storage/images/arsenal.png') }}" class="img-fluid rounded-image"
-                             alt="Арсенал">
+                    <div class="col-md-6 order-md-2 order-1 mb-4 mb-md-0 video-container">
+                        <iframe width="480" height="280"
+                                src="https://www.youtube.com/embed/Rxt-k_eANF0?si=PVXD0Q-2oedn6SVV"
+                                title="Квест 'Ракетна База'" frameborder="0"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -203,7 +210,8 @@
                         <a href="viber://chat?number=%2B380964862244" target="_blank">
                             <img class="img-fluid" src="{{ asset('storage/icons/viber.svg') }}" alt="viber">
                         </a>
-                        <a class="mx-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz" target="_blank">
+                        <a class="mx-3" href="https://www.instagram.com/lazertagclub_voinushka?igsh=dTR4MTN4a29vNHgz"
+                           target="_blank">
                             <img class="img-fluid" src="{{ asset('storage/icons/instagram.svg') }}" alt="instagram">
                         </a>
                         <a href="https://t.me/lazertagclub_voinushka" target="_blank">
