@@ -86,14 +86,13 @@
                                 якої знаходяться балістичні ракети. Використовуючи ці ракети, ми можемо нанести
                                 ракетно-бомбовий удар по наших ворогах. На жаль, на зворотному шляху група потрапила в
                                 засідку і була знищена. Однак нам вдалося здобути частину карти, яка може привести нас
-                                до
-                                цієї бази. Необхідно сформувати новий спецпідрозділ, щоб знайти цю базу і запустити
+                                до цієї бази. Необхідно сформувати новий спецпідрозділ, щоб знайти цю базу і запустити
                                 ракети.</p>
                         </div>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="block-price mb-3 order-1 order-md-2 ml-md-4">
                                 <h2 class="text-center text-title">2000 грн / 60 хв.</h2>
-                                <p class="text-subtitle text-center m-0">з однієї людини</p>
+                                <p class="text-subtitle text-center m-0">група 4 - 10 осіб</p>
                             </div>
                             <div class="order-2 order-md-1">
                                 <button type="button" class="btn btn-orange-big mt-0 w-100" data-toggle="modal"
