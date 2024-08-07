@@ -109,36 +109,32 @@
         </div>
     </section>
 
-    <section id="customCarouselLaserTag" class="py-5">
-        <div id="coverflow">
+    <section id="customCarousel" class="py-5">
+        <div id="coverflow" class="py-5">
             <ul class="flip-items">
                 <li data-flip-title="Світлина">
-                    <img class="img-fluid" src="{{ asset('storage/images/lt-carousel/img-1.png') }}"
-                         alt="Світлина 1">
+                    <img src="{{ asset('storage/images/carousel/img-1.png') }}" alt="Світлина 1">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img class="img-fluid" src="{{ asset('storage/images/lt-carousel/img-2.png') }}"
-                         alt="Світлина 2">
+                    <img src="{{ asset('storage/images/carousel/img-2.png') }}" alt="Світлина 2">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img class="img-fluid" src="{{ asset('storage/images/lt-carousel/img-3.png') }}"
-                         alt="Світлина 3">
+                    <img src="{{ asset('storage/images/carousel/img-3.png') }}" alt="Світлина 3">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img class="img-fluid" src="{{ asset('storage/images/lt-carousel/img-4.png') }}"
-                         alt="Світлина 4">
+                    <img src="{{ asset('storage/images/carousel/img-4.png') }}" alt="Світлина 4">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img class="img-fluid" src="{{ asset('storage/images/lt-carousel/img-5.png') }}"
-                         alt="Світлина 5">
+                    <img src="{{ asset('storage/images/carousel/img-5.png') }}" alt="Світлина 5">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img class="img-fluid" src="{{ asset('storage/images/lt-carousel/img-6.png') }}"
-                         alt="Світлина 6">
+                    <img src="{{ asset('storage/images/carousel/img-6.png') }}" alt="Світлина 6">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img class="img-fluid" src="{{ asset('storage/images/lt-carousel/img-7.png') }}"
-                         alt="Світлина 7">
+                    <img src="{{ asset('storage/images/carousel/img-7.png') }}" alt="Світлина 7">
+                </li>
+                <li data-flip-title="Світлина">
+                    <img src="{{ asset('storage/images/carousel/img-8.png') }}" alt="Світлина 8">
                 </li>
             </ul>
         </div>

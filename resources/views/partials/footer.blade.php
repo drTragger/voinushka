@@ -6,10 +6,10 @@
         <div>
             <ul>
                 <li class="title">Навігація</li>
-                <li><a class="link" href="{{ route('aboutUs') }}">Про нас</a></li>
+                <li><a class="link" href="{{ route('aboutUs') }}">Ми пропонуємо</a></li>
+                <li><a class="link" href="{{ route('aboutUs') }}#aboutUs">Про нас</a></li>
                 <li><a class="link" href="{{ route('laserTag') }}">Лазертаг</a></li>
                 <li><a class="link" href="{{ route('quest') }}">Квест "Ракетна база"</a></li>
-                <li><a class="link" href="{{ route('laserTag') }}#birthday">День народження</a></li>
                 <li><a class="link" href="#form">Контакти</a></li>
                 <li><a class="link" target="_blank"
                        href="https://www.google.com/maps/place/48°32'01.5%22N+35°01'52.7%22E/@48.533758,35.0287331,17z/data=!3m1!4b1!4m4!3m3!8m2!3d48.533758!4d35.031308?entry=ttu">

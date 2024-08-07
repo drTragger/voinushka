@@ -56,11 +56,13 @@ html {
     background-size: cover;
     background-position: center bottom 40%;
     position: relative;
+    background-image: url('../storage/images/hero.png');
 }
 
 @media (max-width: 576px) {
     .about-us-hero {
         min-height: 924px;
+        background-image: url('../storage/images/hero-mobile.png');
     }
 }
 
@@ -305,4 +307,9 @@ footer .link {
 .full-width {
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.about-us-title {
+    font-size: 28px;
+    font-weight: 700;
 }

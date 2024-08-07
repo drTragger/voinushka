@@ -11,7 +11,11 @@
         <ul class="navbar-nav align-items-center mx-auto">
             <li class="nav-item">
                 <a class="nav-link @if(request()->route()->getName() === 'aboutUs') active-nav-link @endif"
-                   href="{{ route('aboutUs') }}">ПРО НАС</a>
+                   href="{{ route('aboutUs') }}">МИ ПРОПОНУЄМО</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"
+                   href="{{ route('aboutUs') }}#aboutUs">ПРО НАС</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link @if(request()->route()->getName() === 'laserTag') active-nav-link @endif"
@@ -20,9 +24,6 @@
             <li class="nav-item">
                 <a class="nav-link @if(request()->route()->getName() === 'quest') active-nav-link @endif"
                    href="{{ route('quest') }}">КВЕСТ "РАКЕТНА БАЗА"</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ route('laserTag') }}#birthday">ДЕНЬ НАРОДЖЕННЯ</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#form">КОНТАКТИ</a>

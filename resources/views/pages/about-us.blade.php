@@ -3,7 +3,7 @@
 
 @section('content')
     <section id="heroBlock" class="pb-5">
-        <div class="about-us-hero" style="background-image: url('{{ asset('storage/images/hero-1.jpeg') }}');">
+        <div class="about-us-hero">
             <div class="container justify-content-center contacts-container align-items-center d-md-none">
                 <div class="contacts-info d-flex justify-content-between align-items-center">
                     <div>
@@ -192,25 +192,28 @@
         <div id="coverflow" class="py-5">
             <ul class="flip-items">
                 <li data-flip-title="Світлина">
-                    <img src="{{ asset('storage/images/about-us-carousel/img-1.png') }}" alt="Світлина 1">
+                    <img src="{{ asset('storage/images/carousel/img-1.png') }}" alt="Світлина 1">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img src="{{ asset('storage/images/about-us-carousel/img-2.png') }}" alt="Світлина 2">
+                    <img src="{{ asset('storage/images/carousel/img-2.png') }}" alt="Світлина 2">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img src="{{ asset('storage/images/about-us-carousel/img-3.png') }}" alt="Світлина 3">
+                    <img src="{{ asset('storage/images/carousel/img-3.png') }}" alt="Світлина 3">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img src="{{ asset('storage/images/about-us-carousel/img-4.png') }}" alt="Світлина 4">
+                    <img src="{{ asset('storage/images/carousel/img-4.png') }}" alt="Світлина 4">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img src="{{ asset('storage/images/about-us-carousel/img-5.png') }}" alt="Світлина 5">
+                    <img src="{{ asset('storage/images/carousel/img-5.png') }}" alt="Світлина 5">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img src="{{ asset('storage/images/about-us-carousel/img-6.png') }}" alt="Світлина 6">
+                    <img src="{{ asset('storage/images/carousel/img-6.png') }}" alt="Світлина 6">
                 </li>
                 <li data-flip-title="Світлина">
-                    <img src="{{ asset('storage/images/about-us-carousel/img-7.png') }}" alt="Світлина 7">
+                    <img src="{{ asset('storage/images/carousel/img-7.png') }}" alt="Світлина 7">
+                </li>
+                <li data-flip-title="Світлина">
+                    <img src="{{ asset('storage/images/carousel/img-8.png') }}" alt="Світлина 8">
                 </li>
             </ul>
         </div>
@@ -318,6 +321,32 @@
                                 title="Лазертаг" frameborder="0"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutUs">
+        <div class="container pt-md-5">
+            <div class="pt-3 pt-md-5">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column mb-4 order-md-1 order-3">
+                        <div class="mb-4">
+                            <h3 class="about-us-title mt-4 mt-md-0">Про нас</h3>
+                            <p class="text-subtitle mb-0 mt-3 mt-md-0">Вас вітає команда Лазертаг клубу “Войнушка”! Ми
+                                розпочали свою діяльність у 2010 році і за цей час організували тисячі захоплюючих
+                                заходів для десятків тисяч задоволених гравців.<br>Наша команда&nbsp;— головна цінність нашого
+                                клубу. Ми&nbsp;— єдина родина і дуже професійна група інструкторів Лазертаг клубу “Войнушка”.<br>
+                                Як родинний бізнес, ми ретельно контролюємо якість послуг і підтримуємо високу
+                                репутацію. Головне правило нашого клубу&nbsp;— якщо ми не можемо провести захід на найвищому
+                                рівні, ми не будемо його проводити зовсім. Запрошуємо вас на наш полігон, де ми
+                                подаруємо вам яскраві та незабутні враження!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-2 order-1">
+                        <img src="{{ asset('storage/images/about-us.png') }}" class="img-fluid rounded-image"
+                             alt="Про нас">
                     </div>
                 </div>
             </div>
