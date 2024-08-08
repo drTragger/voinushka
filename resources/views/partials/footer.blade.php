@@ -6,7 +6,7 @@
         <div>
             <ul>
                 <li class="title">Навігація</li>
-                <li><a class="link" href="{{ route('aboutUs') }}">Ми пропонуємо</a></li>
+                <li><a class="link" href="{{ route('aboutUs') }}">Головна</a></li>
                 <li><a class="link" href="{{ route('aboutUs') }}#aboutUs">Про нас</a></li>
                 <li><a class="link" href="{{ route('laserTag') }}">Лазертаг</a></li>
                 <li><a class="link" href="{{ route('quest') }}">Квест "Ракетна база"</a></li>

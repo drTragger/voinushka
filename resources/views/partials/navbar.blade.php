@@ -11,7 +11,7 @@
         <ul class="navbar-nav align-items-center mx-auto">
             <li class="nav-item">
                 <a class="nav-link @if(request()->route()->getName() === 'aboutUs') active-nav-link @endif"
-                   href="{{ route('aboutUs') }}">МИ ПРОПОНУЄМО</a>
+                   href="{{ route('aboutUs') }}">ГОЛОВНА</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link"
