@@ -218,6 +218,15 @@
                 <li data-flip-title="Світлина">
                     <img src="{{ asset('storage/images/carousel/img-9.png') }}" alt="Світлина 9">
                 </li>
+                <li data-flip-title="Світлина">
+                    <img src="{{ asset('storage/images/carousel/img-10.png') }}" alt="Світлина 10">
+                </li>
+                <li data-flip-title="Світлина">
+                    <img src="{{ asset('storage/images/carousel/img-11.png') }}" alt="Світлина 11">
+                </li>
+                <li data-flip-title="Світлина">
+                    <img src="{{ asset('storage/images/carousel/img-12.png') }}" alt="Світлина 12">
+                </li>
             </ul>
         </div>
     </section>
