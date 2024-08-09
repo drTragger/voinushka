@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://voinushka.dp.ua/sitemap.xml
+Sitemap: https://www.voinushka.dp.ua/sitemap.xml
