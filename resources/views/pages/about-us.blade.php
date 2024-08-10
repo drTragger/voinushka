@@ -3,6 +3,7 @@
 
 @section('content')
     <section id="heroBlock" class="pb-5">
+        <h1 class="d-none">Лазертаг Клуб "Войнушка"</h1>
         <div class="about-us-hero">
             <div class="container justify-content-center contacts-container align-items-center d-md-none">
                 <div class="contacts-info d-flex justify-content-between align-items-center">
