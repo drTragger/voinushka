@@ -43,7 +43,7 @@
             </li>
             <li class="nav-item d-md-none">
                 <a class="nav-link"
-                   href="https://www.google.com/maps/place/%D0%9B%D0%B0%D0%B7%D0%B5%D1%80%D1%82%D0%B0%D0%B3+%D0%94%D0%BD%D0%B5%D0%BF%D1%80+(%D0%BB%D0%B0%D0%B7%D0%B5%D1%80%D0%BD%D1%8B%D0%B5+%D0%B1%D0%BE%D0%B8)+%22%D0%92%D0%BE%D0%B9%D0%BD%D1%83%D1%88%D0%BA%D0%B0%22.+%D0%9B%D0%B0%D0%B7%D0%B5%D1%80%D1%82%D0%B0%D0%B3+%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA/@48.5297559,35.0182589,15z/data=!4m2!3m1!1s0x0:0xebd8845b727427e1?sa=X&ved=1t:2428&ictx=111">
+                   href="https://www.google.com/maps/place/48°32'01.5%22N+35°01'52.7%22E/@48.533758,35.0287331,17z/data=!3m1!4b1!4m4!3m3!8m2!3d48.533758!4d35.031308?entry=ttu">
                     НАША ЛОКАЦІЯ</a>
             </li>
             <li class="nav-item d-md-none">
