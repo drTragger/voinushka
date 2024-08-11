@@ -43,7 +43,7 @@
             </li>
             <li class="nav-item d-md-none">
                 <a class="nav-link"
-                   href="https://www.google.com/maps/place/48°32'01.5%22N+35°01'52.7%22E/@48.533758,35.0287331,17z/data=!3m1!4b1!4m4!3m3!8m2!3d48.533758!4d35.031308?entry=ttu">
+                   href="https://www.google.com/maps/place/48°32'01.5%22N+35°01'52.7%22E/@48.533758,35.0287331,17z/data=!3m1!4b1!4m4!3m3!8m2!3d48.533758!4d35.031308?entry=ttu" target="_blank">
                     НАША ЛОКАЦІЯ</a>
             </li>
             <li class="nav-item d-md-none">
@@ -53,7 +53,7 @@
                 <a class="nav-link" href="{{ route('laserTag') }}#weapons">АРСЕНАЛ</a>
             </li>
             <li class="nav-item d-md-none">
-                <a class="nav-link" href="https://www.google.com/maps/place/Лазертаг+Днепр+(лазерные+бои)+%22Войнушка%22.+Лазертаг+Днепропетровск/@48.5297559,35.0182589,15z/data=!4m8!3m7!1s0x40d958b4c19fabcb:0xebd8845b727427e1!8m2!3d48.5297559!4d35.0182589!9m1!1b1!16s%2Fg%2F11bxgn4_k7?entry=ttu">ВІДГУКИ</a>
+                <a class="nav-link" href="https://www.google.com/maps/place/Лазертаг+Днепр+(лазерные+бои)+%22Войнушка%22.+Лазертаг+Днепропетровск/@48.5297559,35.0182589,15z/data=!4m8!3m7!1s0x40d958b4c19fabcb:0xebd8845b727427e1!8m2!3d48.5297559!4d35.0182589!9m1!1b1!16s%2Fg%2F11bxgn4_k7?entry=ttu" target="_blank">ВІДГУКИ</a>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto align-items-center pb-5 pb-md-0">
